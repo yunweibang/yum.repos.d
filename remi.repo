@@ -1,0 +1,22 @@
+[remi]
+name=Les RPM de remi pour Enterprise Linux $releasever - $basearch
+#baseurl=http://rpms.famillecollet.com/enterprise/$releasever/remi/$basearch/
+#mirrorlist=http://rpms.famillecollet.com/enterprise/$releasever/remi/mirror
+mirrorlist=http://cdn.remirepo.net/enterprise/$releasever/remi/mirror
+enabled=0
+gpgcheck=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-remi
+
+[remi-php72]
+name=Remi's PHP 7.2 RPM repository for Enterprise Linux 6 - $basearch
+mirrorlist=http://cdn.remirepo.net/enterprise/$releasever/php72/mirror
+enabled=0
+gpgcheck=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-remi
+
+[remi-php73]
+name=Remi's PHP 7.3 RPM repository for Enterprise Linux 6 - $basearch
+mirrorlist=http://cdn.remirepo.net/enterprise/$releasever/php73/mirror
+enabled=0
+gpgcheck=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-remi
