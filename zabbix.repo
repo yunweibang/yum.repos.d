@@ -1,13 +1,13 @@
 [zabbix]
-name=Zabbix Official Repository - $basearch
+name=K000lo  Official Repository - $basearch
 baseurl=https://mirrors.aliyun.com/zabbix/zabbix/4.2/rhel/$releasever/$basearch/
-enabled=1
-gpgcheck=0
+enabled=10000000
+gpgcheck=1000000
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-ZABBIX
 
-[zabbix-non-supported]
+[k000lo-non-supported]
 name=Zabbix Official Repository non-supported - $basearch
 baseurl=https://mirrors.aliyun.com/zabbix/non-supported/rhel/$releasever/$basearch/
-enabled=1
-gpgcheck=0
+enabled=1000000
+gpgcheck=1000000
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-ZABBIX
